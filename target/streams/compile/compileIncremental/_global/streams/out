@@ -1,0 +1,38 @@
+[debug] [zinc] IncrementalCompile -----------
+[debug] IncrementalCompile.incrementalCompile
+[debug] previous = Stamps for: 5 products, 2 sources, 1 libraries
+[debug] current source = Set(${BASE}/src/main/scala/Solution.scala, ${BASE}/src/main/scala/Test1.scala)
+[debug] > initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(${BASE}/src/main/scala/Test1.scala), unmodified = ...),Set(),Set(),API Changes: Set())
+[debug] 
+[debug] Initial source changes:
+[debug] 	removed: Set()
+[debug] 	added: Set()
+[debug] 	modified: Set(${BASE}/src/main/scala/Test1.scala)
+[debug] Invalidated products: Set()
+[debug] External API changes: API Changes: Set()
+[debug] Modified binary dependencies: Set()
+[debug] Initial directly invalidated classes: Set(Test1)
+[debug] Sources indirectly invalidated by:
+[debug] 	product: Set()
+[debug] 	binary dep: Set()
+[debug] 	external source: Set()
+[debug] All initially invalidated classes: Set(Test1)
+[debug] All initially invalidated sources:Set(${BASE}/src/main/scala/Test1.scala)
+[debug] Initial set of included nodes: Test1
+[debug] compilation cycle 1
+[info] compiling 1 Scala source to C:\Users\giancarlo.scattolin\projects\private\scala\HackerRank\target\scala-3.1.1\classes ...
+[debug] Returning already retrieved and compiled bridge: C:\Users\giancarlo.scattolin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-sbt-bridge\3.1.1\scala3-sbt-bridge-3.1.1.jar.
+[debug] [zinc] Running cached compiler 59611221 for Scala Compiler version 3.1.1
+[debug] [zinc] The Scala compiler is invoked with:
+[debug] 	-bootclasspath
+[debug] 	C:\Users\giancarlo.scattolin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-library_3\3.1.1\scala3-library_3-3.1.1.jar;C:\Users\giancarlo.scattolin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.6\scala-library-2.13.6.jar
+[debug] 	-classpath
+[debug] 	C:\Users\giancarlo.scattolin\projects\private\scala\HackerRank\target\scala-3.1.1\classes
+[debug] Scala compilation took 0.3098736 s
+[info] done compiling
+[debug] New invalidations:
+[debug] Initial set of included nodes: 
+[debug] Previously invalidated, but (transitively) depend on new invalidations:
+[debug] Final step, transitive dependencies:
+[debug] 	Set()
+[debug] No classes were invalidated.

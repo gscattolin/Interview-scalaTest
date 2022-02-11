@@ -1,0 +1,16 @@
+[debug] > Exec(run, None, None)
+[debug] Evaluating tasks: Compile / run
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 2 Scala sources to C:\Users\giancarlo.scattolin\projects\private\scala\HackerRank\target\scala-3.1.1\classes ...
+[warn] -- Warning: C:\Users\giancarlo.scattolin\projects\private\scala\HackerRank\src\main\scala\Test1.scala:85:0 
+[warn] 85 |println(AreaPolygon(List((1043,770),(551,990),(681,463))))
+[warn]    |^
+[warn]    |Line is indented too far to the left, or a `}` is missing
+[warn] one warning found
+[warn] one warning found
+[info] done compiling
+[debug] Forcing garbage collection...
+[success] Total time: 42 s, completed Feb 9, 2022, 3:47:31 PM
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)

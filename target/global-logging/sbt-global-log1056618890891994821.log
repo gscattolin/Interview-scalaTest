@@ -1,0 +1,16 @@
+[debug] > Exec(;clean ;compile ;run, None, None)
+[debug] > Exec(clean, None, None)
+[debug] Evaluating tasks: clean
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[success] Total time: 0 s, completed Feb 7, 2022, 10:10:11 AM
+[debug] > Exec(compile, None, None)
+[debug] Evaluating tasks: Compile / compile
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\giancarlo.scattolin\projects\private\scala\HackerRank\target\scala-3.1.1\classes ...
+[info] done compiling
+[success] Total time: 1 s, completed Feb 7, 2022, 10:10:13 AM
+[debug] > Exec(run, None, None)
+[debug] Evaluating tasks: Compile / run
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[success] Total time: 0 s, completed Feb 7, 2022, 10:10:13 AM
+[debug] > Exec(idea-shell, None, None)
