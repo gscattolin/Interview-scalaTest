@@ -85,6 +85,8 @@ object Test1 extends App {
 //    }
     List(1,2)
   }
+
+  def toRemember1(): Unit ={
     import scala.collection.mutable
     val map = mutable.Map.empty[Int,Int]
     val yourKey: Int = ???
@@ -92,20 +94,29 @@ object Test1 extends App {
       case Some(i) => Some(i+1)
       case None => Some(1)
     }
-
-  def plusMinus(arr: Array[Int])= {
-    // Write your code here
-    arr.groupBy { case x if x < 0 => -1 case 0 => 0 case x if x > 0 => 1 }.map(x=>(x._1,x._2.length))
-    println()
   }
 
-//  println(spinWords("Hey wollef sroirraw"))
+
+  def plusMinus(arr: Array[Int]):List[Double]= {
+    // Write your code here
+     arr.groupBy { case x if x > 0 => 1  case x if x < 0 => -1 case 0 => 0}.
+       map(x=>(x._1,x._2.length.toDouble/arr.length)).values.toList
+  }
+
+  def miniMaxSum(arr: Array[BigInt]):(BigInt,BigInt)= {
+    // Write your code here
+    val res=arr.combinations(4).map(x=>x.sum).toList.sorted
+    (res.head,res.last)
+  }
+
+
+  //  println(spinWords("Hey wollef sroirraw"))
 //  println(narcissistic(153))
 //  var ts = List(50, 55, 56, 57, 58)
 //  println(chooseBestSum(163, 3, ts)==163)
 //  println(fpFiltArarray(3,List(10,9,8,2,7,5,1,3,0)))
 //  println(fpFilterPositionsInList(List(2,5,3,4,6,7,9,8)))
 //  println(exp(20))
-  println(AreaPolygon(List((1043,770),(551,990),(681,463))))
+//  println(AreaPolygon(List((1043,770),(551,990),(681,463))))
 }
 
